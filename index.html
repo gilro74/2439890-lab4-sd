@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Global Look-Up</h1>
+    </header>
+
+    <main>
+        <!-- User Input Section -->
+        <section aria-labelledby="search-title">
+            <h2 id="search-title">Search for a Country</h2>
+            <label for="country-input">Enter Country Name:</label>
+            <input type="text" id="country-input" placeholder="e.g., South Africa" aria-label="Country name">
+            <button id="search-btn" aria-label="Search for country">Search</button>
+        </section>
+
+        <!-- Country Information Section -->
+        <section id="country-info" aria-labelledby="country-info-title">
+            <h2 id="country-info-title">Country Information</h2>
+        </section>
+
+        <!-- Bordering Countries Section -->
+        <section id="bordering-countries" aria-labelledby="bordering-title">
+            <h2 id="bordering-title">Bordering Countries</h2>
+        </section>
+    </main>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
